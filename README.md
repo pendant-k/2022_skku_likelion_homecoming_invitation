@@ -1,16 +1,5 @@
 # likelion_2022_invitation
 
-A new Flutter project.
+2022년 성균관대학교 멋쟁이사자처럼 홈커밍데이 초대장 소스코드입니다.   
+실제 구현된 페이지는 다음 [링크](https://skku-likelion-2022-invitation.web.app/#/)를 통해서 확인할 수 있습니다.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
