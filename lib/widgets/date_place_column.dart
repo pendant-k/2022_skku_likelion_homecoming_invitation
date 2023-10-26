@@ -76,7 +76,7 @@ class _DatePlaceColumnState extends State<DatePlaceColumn> {
         ),
         const ContentBlock(
           title: '📍장소',
-          body: '성균관대학교 퇴계인문관 4층 31403',
+          body: '성균관대학교 퇴계인문관 6층 31604',
         ),
         SizedBox(
           height: isDesk ? 25 : 25.w,

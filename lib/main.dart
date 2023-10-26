@@ -239,7 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: isDesk ? 150 : 150.w,
                     ),
                     Text(
-                      '© Copyright 2022, 11th LikeLion(SKKU). All rights reserved',
+                      '© Copyright 2022, 10th LikeLion(SKKU). All rights reserved',
                       style: TextStyle(
                         fontSize: isDesk ? 14 : 14.sp,
                         color: CustomColors.textColor,
