@@ -49,3 +49,4 @@ firebase.json
 
 # privacy information
 lib/constants.dart
+lib/firebase_options.dart
