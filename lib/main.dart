@@ -1,6 +1,7 @@
 // packages
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:likelion_2022_invitation/constants.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // firebase init
@@ -57,10 +58,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    final Uri _primaryPhone = Uri.parse('tel:010-2889-9289');
-    final Uri _secondaryPhone = Uri.parse('tel:010-9015-1606');
-    final Uri _kakaoLink = Uri.parse("http://pf.kakao.com/_xnLfrb");
-
     final bool isDesk = MediaQuery.of(context).size.width >= 520;
     Future<void> _openUri(Uri url) async {
       if (!await launchUrl(url)) {
@@ -70,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Title(
       color: CustomColors.textColor,
-      title: '2022 멋사(SKKU) 홈커밍 데이',
+      title: '2023 멋사(SKKU) 홈커밍 데이',
       child: Scaffold(
         backgroundColor: CustomColors.skkuColor,
         body: SafeArea(
@@ -99,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: isDesk ? 20 : 20.w,
                     ),
                     Text(
-                      '🎉멋쟁이 사자처럼 6주년 홈커밍 데이에 초대합니다!🎉',
+                      '🎉멋쟁이 사자처럼 ${Constants.year}주년 홈커밍 데이에 초대합니다!🎉',
                       style: TextStyle(
                         fontSize: isDesk ? 20 : 20.sp,
                         fontWeight: FontWeight.bold,
@@ -110,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: isDesk ? 20 : 20.w,
                     ),
                     Text(
-                      '저희 멋쟁이 사자처럼 후배들이 선배님들을 초대합니다!!\n멋쟁이 사자처럼 후배와 선배들의 좋은 추억을 위해,\n멋쟁이 사자처럼 6주년 홈커밍 데이 초대장을 보냅니다.\n멋쟁이 사자처럼 홈커밍 데이를 빛내주실 여러분의 참가 기다리겠습니다!',
+                      '저희 멋쟁이 사자처럼 후배들이 선배님들을 초대합니다!!\n멋쟁이 사자처럼 후배와 선배들의 좋은 추억을 위해,\n멋쟁이 사자처럼 ${Constants.year}주년 홈커밍 데이 초대장을 보냅니다.\n멋쟁이 사자처럼 홈커밍 데이를 빛내주실 여러분의 참가 기다리겠습니다!',
                       style: TextStyle(
                         fontSize: isDesk ? 15 : 15.sp,
                         color: const Color(0xff8d968c),
@@ -140,15 +137,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                   width: isDesk ? 10 : 25.w,
                                 ),
                                 ContactBtn(
-                                  title: '차지환 회장 ',
-                                  onTap: () {
-                                    _openUri(_primaryPhone);
-                                  },
-                                ),
+                                    title: "${Constants.presidentName} 회장",
+                                    onTap: () {
+                                      _openUri(Uri.parse(Constants.presidentPhone));
+                                    }),
                                 ContactBtn(
-                                  title: '김준서 부회장',
+                                  title: "${Constants.viceName} 부회장",
                                   onTap: () {
-                                    _openUri(_secondaryPhone);
+                                    _openUri(Uri.parse(Constants.vicePhone));
                                   },
                                   isCenter: true,
                                 ),
@@ -156,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     icon: Icons.chat_bubble,
                                     title: ' 카카오채널 ',
                                     onTap: () {
-                                      _openUri(_kakaoLink);
+                                      _openUri(Uri.parse(Constants.kakaoUrl));
                                     }),
                                 SizedBox(
                                   width: isDesk ? 10 : 25.w,
@@ -243,7 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: isDesk ? 150 : 150.w,
                     ),
                     Text(
-                      '© Copyright 2022, 10th LikeLion(SKKU). All rights reserved',
+                      '© Copyright 2022, 11th LikeLion(SKKU). All rights reserved',
                       style: TextStyle(
                         fontSize: isDesk ? 14 : 14.sp,
                         color: CustomColors.textColor,

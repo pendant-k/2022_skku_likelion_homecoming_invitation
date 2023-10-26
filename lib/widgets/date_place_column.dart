@@ -69,7 +69,7 @@ class _DatePlaceColumnState extends State<DatePlaceColumn> {
         ),
         const ContentBlock(
           title: '📆일시',
-          body: '2022년 10월 29일 토요일 오후 3시',
+          body: '2023년 11월 4일 토요일 오후 6시',
         ),
         SizedBox(
           height: isDesk ? 25 : 25.w,
@@ -81,13 +81,13 @@ class _DatePlaceColumnState extends State<DatePlaceColumn> {
         SizedBox(
           height: isDesk ? 25 : 25.w,
         ),
-        const ContentBlock(
-          title: '👕드레스 코드',
-          body: '후드티',
-        ),
-        SizedBox(
-          height: isDesk ? 20 : 20.w,
-        ),
+        // const ContentBlock(
+        //   title: '👕드레스 코드',
+        //   body: '후드티',
+        // ),
+        // SizedBox(
+        //   height: isDesk ? 20 : 20.w,
+        // ),
         SizedBox(
           width: double.infinity,
           height: isDesk ? 250 : 250.w,

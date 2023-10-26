@@ -41,7 +41,7 @@ class _FormContainerState extends State<FormContents> {
           });
         });
       } catch (e) {
-        print(e);
+        // print(e);
         setState(() {
           _submitted = true;
           _submitError = true;
@@ -72,9 +72,7 @@ class _FormContainerState extends State<FormContents> {
     return _submitted
         ? Center(
             child: Text(
-              _submitError
-                  ? '일시적인 오류가 발생했어요 ㅠㅠ'
-                  : '신청해주셔서 감사합니다!\n건강한 모습으로 뵙겠습니다🔥',
+              _submitError ? '일시적인 오류가 발생했어요 ㅠㅠ' : '신청해주셔서 감사합니다!\n건강한 모습으로 뵙겠습니다🔥',
               style: TextStyle(
                 fontSize: isDesk ? 20 : 20.sp,
                 fontWeight: FontWeight.w500,
@@ -116,9 +114,7 @@ class _FormContainerState extends State<FormContents> {
                     labelText: '이름',
                     labelStyle: TextStyle(
                       fontSize: isDesk ? 15 : 15.sp,
-                      color: _nameFocusNode.hasFocus
-                          ? CustomColors.skkuColor
-                          : CustomColors.gray88,
+                      color: _nameFocusNode.hasFocus ? CustomColors.skkuColor : CustomColors.gray88,
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5),
@@ -186,9 +182,7 @@ class _FormContainerState extends State<FormContents> {
                     labelText: '기수',
                     labelStyle: TextStyle(
                       fontSize: isDesk ? 15 : 15.sp,
-                      color: _thFocusNode.hasFocus
-                          ? CustomColors.skkuColor
-                          : CustomColors.gray88,
+                      color: _thFocusNode.hasFocus ? CustomColors.skkuColor : CustomColors.gray88,
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5),
@@ -256,9 +250,7 @@ class _FormContainerState extends State<FormContents> {
                     labelText: '휴대전화번호',
                     labelStyle: TextStyle(
                       fontSize: isDesk ? 15 : 15.sp,
-                      color: _phoneFocusNode.hasFocus
-                          ? CustomColors.skkuColor
-                          : CustomColors.gray88,
+                      color: _phoneFocusNode.hasFocus ? CustomColors.skkuColor : CustomColors.gray88,
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5),
