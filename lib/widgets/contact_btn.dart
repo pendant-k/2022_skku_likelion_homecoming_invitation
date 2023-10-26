@@ -43,7 +43,7 @@ class ContactBtn extends StatelessWidget {
               width: isDesk ? 5 : 5.w,
             ),
             Text(
-              "$title 회장",
+              "$title",
               style: TextStyle(
                 fontSize: isDesk ? 15 : 15.sp,
                 fontWeight: FontWeight.bold,
