@@ -77241,7 +77241,7 @@ f===$&&A.a()
 i=i.a
 i===$&&A.a()
 i=150*(f.a.a/i.a)}i=A.bC(a,i,a)
-return new A.zn("2023 \uba4b\uc0ac(SKKU) \ud648\ucee4\ubc0d \ub370\uc774",B.ax,new A.y1(A.aDA(A.ut(A.ps(a,new A.Kj(A.js(A.b([r,q,p,o,n,m,h,a1,k,l,c,j,e,i,A.bP("\xa9 Copyright 2022, 11th LikeLion(SKKU). All rights reserved",a,a,a,A.b5(a,a,B.ax,a,a,a,a,a,a,a,a,a0?14:$.ab().bV(14),a,a,a,a,a,!0,a,a,a,a,a,a,a,a),a,a)],g),B.aB,B.bd),a),B.z,a2,B.ya,a,1/0,a,new A.al(s,s,s,s),1/0),a,a),!0),B.aN,a),a)}}
+return new A.zn("2023 \uba4b\uc0ac(SKKU) \ud648\ucee4\ubc0d \ub370\uc774",B.ax,new A.y1(A.aDA(A.ut(A.ps(a,new A.Kj(A.js(A.b([r,q,p,o,n,m,h,a1,k,l,c,j,e,i,A.bP("\xa9 Copyright 2022, 10th LikeLion(SKKU). All rights reserved",a,a,a,A.b5(a,a,B.ax,a,a,a,a,a,a,a,a,a0?14:$.ab().bV(14),a,a,a,a,a,!0,a,a,a,a,a,a,a,a),a,a)],g),B.aB,B.bd),a),B.z,a2,B.ya,a,1/0,a,new A.al(s,s,s,s),1/0),a,a),!0),B.aN,a),a)}}
 A.ah9.prototype={
 Sa(a){var s=0,r=A.S(t.H)
 var $async$$1=A.T(function(b,c){if(b===1)return A.P(c,r)
@@ -80607,7 +80607,7 @@ B.kS=new A.uI(0,"none")
 B.Aa=new A.uI(1,"waiting")
 B.et=new A.uI(3,"done")
 B.Ab=new A.uL("\ud83d\udcc6\uc77c\uc2dc","2023\ub144 11\uc6d4 4\uc77c \ud1a0\uc694\uc77c \uc624\ud6c4 6\uc2dc",null)
-B.Ac=new A.uL("\ud83d\udccd\uc7a5\uc18c","\uc131\uade0\uad00\ub300\ud559\uad50 \ud1f4\uacc4\uc778\ubb38\uad00 4\uce35 31403",null)
+B.Ac=new A.uL("\ud83d\udccd\uc7a5\uc18c","\uc131\uade0\uad00\ub300\ud559\uad50 \ud1f4\uacc4\uc778\ubb38\uad00 6\uce35 31604",null)
 B.kT=new A.mI(0,"cut")
 B.kU=new A.mI(1,"copy")
 B.kV=new A.mI(2,"paste")

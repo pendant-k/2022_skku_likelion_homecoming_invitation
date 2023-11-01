@@ -69,7 +69,7 @@ class _DatePlaceColumnState extends State<DatePlaceColumn> {
         ),
         const ContentBlock(
           title: '📆일시',
-          body: '2023년 11월 4일 토요일 오후 6시',
+          body: '2023년 11월 4일 토요일 오후 5시',
         ),
         SizedBox(
           height: isDesk ? 25 : 25.w,
